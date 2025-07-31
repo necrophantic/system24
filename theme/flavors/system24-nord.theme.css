@@ -1,5 +1,5 @@
 /**
- * @name system24 (nord)
+ * @name system24 (rigel)
  * @description a tui-like discord theme. based on nord theme (https://www.nordtheme.com).
  * @author refact0r
  * @version 2.0.0
@@ -87,17 +87,17 @@ body {
 
     /* text colors */
     --text-0: var(--bg-3); /* text on colored elements */
-    --text-1: #eceff4; /* other normally white text */
-    --text-2: #e5e9f0; /* headings and important text */
-    --text-3: #d8dee9; /* normal text */
+    --text-1: #00ffff; /* other normally white text */
+    --text-2: #a5bde8; /* headings and important text */
+    --text-3: #a5bde8; /* normal text */
     --text-4: hsl(220, 20%, 67%); /* icon buttons and channels */
-    --text-5: #4c566a; /* muted channels/chats and timestamps */
+    --text-5: #5e7b88; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: #434c5e; /* dark buttons when clicked */
-    --bg-2: #3b4252; /* dark buttons */
-    --bg-3: #272b35; /* spacing, secondary elements */
-    --bg-4: #2e3440; /* main background color */
+    --bg-1: #01435c; /* dark buttons when clicked */
+    --bg-2: #00384d; /* dark buttons */
+    --bg-3: #00384d; /* spacing, secondary elements */
+    --bg-4: #002635; /* main background color */
     --hover: hsla(220, 20%, 50%, 0.1); /* channels and buttons when hovered */
     --active: hsla(220, 20%, 50%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 20%, 50%, 0.3); /* extra state for transparent buttons */
@@ -130,32 +130,32 @@ body {
 
     /* base colors */
     --red-1: hsl(354, 42%, 61%);
-    --red-2: #bf616a;
-    --red-3: #bf616a;
+    --red-2: #ff5a67;
+    --red-3: #ff5a67;
     --red-4: hsl(354, 42%, 51%);
     --red-5: hsl(354, 42%, 46%);
 
     --green-1: hsl(92, 28%, 70%);
-    --green-2: #a3be8c;
-    --green-3: #a3be8c;
+    --green-2: #b1fac2;
+    --green-3: #b1fac2;
     --green-4: hsl(92, 28%, 60%);
     --green-5: hsl(92, 28%, 55%);
 
     --blue-1: hsl(193, 43%, 72%);
-    --blue-2: #88c0d0;
-    --blue-3: #88c0d0;
+    --blue-2: #00ffff;
+    --blue-3: #00ffff;
     --blue-4: hsl(193, 43%, 62%);
     --blue-5: hsl(193, 43%, 57%);
 
     --yellow-1: hsl(40, 71%, 78%);
-    --yellow-2: #ebcb8b;
-    --yellow-3: #ebcb8b;
+    --yellow-2: #f59856;
+    --yellow-3: #f59856;
     --yellow-4: hsl(40, 71%, 68%);
     --yellow-5: hsl(40, 71%, 63%);
 
     --purple-1: hsl(311, 20%, 68%);
-    --purple-2: #b48ead;
-    --purple-3: #b48ead;
+    --purple-2: #00ffff;
+    --purple-3: #00ffff;
     --purple-4: hsl(311, 20%, 58%);
     --purple-5: hsl(311, 20%, 53%);
 }
